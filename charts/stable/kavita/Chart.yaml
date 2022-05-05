@@ -1,0 +1,25 @@
+---
+apiVersion: v2
+appVersion: 5.2.5
+description: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+name: kavita
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - kavita
+  - reader
+home: https://github.com/kalenarndt/charts/tree/master/charts/stable/kavita
+icon: https://raw.githubusercontent.com/Kareadita/Kavita/3334b0ce3fe2f77f521713c595a342c183869a8e/Logo/kavita.svg
+sources:
+  - https://github.com/Kareadita/Kavita
+maintainers:
+  - name: kalenarndt
+    email: me@bkalen.sh
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.4.1
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial version
